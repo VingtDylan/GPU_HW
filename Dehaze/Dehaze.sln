@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1267
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dehaze", "Dehaze\Dehaze.vcxproj", "{3434F355-9F09-4FA5-BD40-447F3B705BCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3434F355-9F09-4FA5-BD40-447F3B705BCC}.Debug|x64.ActiveCfg = Debug|x64
+		{3434F355-9F09-4FA5-BD40-447F3B705BCC}.Debug|x64.Build.0 = Debug|x64
+		{3434F355-9F09-4FA5-BD40-447F3B705BCC}.Release|x64.ActiveCfg = Release|x64
+		{3434F355-9F09-4FA5-BD40-447F3B705BCC}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E10C5D8-59E1-4E4B-9C72-F8AA3E040B58}
+	EndGlobalSection
+EndGlobal
