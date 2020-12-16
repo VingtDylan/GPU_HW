@@ -16,8 +16,8 @@ Mat transmission(Mat img, Vec3b a, float w, float t0);
 Mat recover(Mat img, Mat guide, Vec3b A);
 Mat deHaze(Mat img);
 
-int mainaaaaaaaa() {
-	Mat hazed = imread("extra3.jpg");
+int main1() {
+	Mat hazed = imread("extra1.jpg");
 
 	clock_t start_t = clock();
 	Mat dehazed = deHaze(hazed);

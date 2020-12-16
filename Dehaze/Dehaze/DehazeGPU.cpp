@@ -27,10 +27,9 @@ __host__ Mat GPU_transmission(Mat, Vec3b, float, float);
 __host__ Mat GPU_recover(Mat, Mat, Vec3b);
 __host__ void errCatch(cudaError_t);
 
-
 int main() {
 	displayInfo();
-	Mat tohaze = imread("extra3.jpg");
+	Mat tohaze = imread("extra1.jpg");
 	Mat minChannel = GPU_minChannel(tohaze);
 	Mat darkChannel = GPU_darkChannel(minChannel);
 	Vec3b A = atmosphic(tohaze, darkChannel);
@@ -120,7 +119,7 @@ __host__
 void displayInfo() {
 	int deviceCount;
 	cudaGetDeviceCount(&deviceCount);
-	cout << deviceCount << endl;
+	//cout << deviceCount << endl;
 	for (int i = 0; i < deviceCount; i++)
 	{
 		cudaDeviceProp devProp;
